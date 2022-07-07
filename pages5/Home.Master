@@ -1,0 +1,484 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.master.cs" Inherits="campus1.Home" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Untitled Page</title>
+     <link href="StyleSheet.css" rel="Stylesheet" />
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">     
+          
+        
+        .style1
+        {
+            width: 100%;
+        }
+        .style4
+        {
+            width: 227px;
+        }
+        .style5
+        {
+            text-align: right;
+            font-family: Calibri;
+            font-size: 14px;
+            font-weight: bold;
+            color: #002D00;
+            width: 137px;
+        }
+        .style6
+        {
+            color: #CC3300;
+             width: 100%;
+
+        }  
+        .auto-style2 {
+            color: #CC3300;
+           
+        }
+        .auto-style3 {
+            height: 23px;
+        }
+        .auto-style4 {
+            height: 54px;
+        }
+        .auto-style5 {
+            width: 83px;
+            height: 100px;
+        }
+        .auto-style6 {
+            width: 100%;
+            height: 764px;
+            margin-bottom: 0px;
+        }
+        .auto-style7 {
+            width: 222px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+   <div id="top">
+    
+        <table >
+            <tr>
+                <td >
+                    <asp:Image ID="Image1" runat="server" Height="86px" 
+                        ImageUrl="~/img/My Project (5).png" Width="147px" />
+                </td>
+                <td style="color: #002D00" class="auto-style2" align="center">
+                    
+                        <span class="style6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;J</span>OB <span class="style6">M</span>ELA 
+                    </td>
+            </tr>
+        </table>
+   </div>
+    <div id="body">
+    <div id="login" align="right">
+        <table class="style1">
+            <tr>
+                <td width="180" class="mnu">
+                  <a href="placement.aspx" class="a">PLACEMENT COMMITTEE</a></td>
+                       <td width="166" class="mnu">
+                        <a href="allumni.aspx" class="a">ALUMNI</a></td>
+                       <td width="166" class="mnu">
+                         <a href="req.aspx" class="a"> RECRUITERS</a></td>
+                       <td width="166" class="mnu">
+                        <a href="collegeinfo.aspx" class="a">   COLLAGE INFO</a></td>
+                       <td width="166" class="mnu">
+                         <a href="aboutus.aspx" class="a">  ABOUT US</a></td>
+                       <td width="166" class="mnu">
+                          <a href="contactus.aspx" class="a"> CONTACT US</a></td>
+                   </tr>
+               </table>
+           </div>
+           <div id="cont">
+               <table class="auto-style6">
+                   <tr>
+                       <td valign="top" class="auto-style7">
+                           <table class="style1">
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                               <tr>
+                                   <td class="auto-style3">
+                                       </td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                           </table>
+                           <table class="style1">
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                               <tr>
+                                   <td class="auto-style3">
+                                       </td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                           </table>
+                           <table class="style1">
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                               <tr>
+                                   <td class="auto-style3">
+                                       </td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                           </table>
+                           <table class="style1">
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                               <tr>
+                                   <td class="auto-style3">
+                                   </td>
+                               </tr>
+                               <tr>
+                                   <td class="auto-style3">
+                                       </td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                           </table>
+                           <table class="style1">
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                               <tr>
+                                   <td class="auto-style3">
+                                       &nbsp;</td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                           </table>
+                           <table class="style1">
+                               <tr>
+                                   <td>
+                                       <asp:HyperLink ID="HyperLink10" runat="server" ForeColor="#3399FF" NavigateUrl="~/home.aspx">Home Page</asp:HyperLink>
+                                   </td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       <asp:HyperLink ID="HyperLink7" runat="server" ForeColor="#3399FF" NavigateUrl="~/adlogin.aspx">Admin Page</asp:HyperLink>
+                                   </td>
+                               </tr>
+                               <tr>
+                                   <td class="auto-style3">
+                                       <asp:HyperLink ID="HyperLink8" runat="server" ForeColor="#3399FF" NavigateUrl="~/clglogin.aspx">Company Page</asp:HyperLink>
+                                       </td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       <asp:HyperLink ID="HyperLink9" runat="server" ForeColor="#3399FF" NavigateUrl="~/studlogin.aspx">Student Page</asp:HyperLink>
+                                   </td>
+                               </tr>
+                           </table>
+                       </td>
+                       <td width="700" valign="top">
+                           <table class="style1">
+                               <tr>
+                                   <td> 
+
+
+
+
+
+                                       <%--<table class="tbl">
+                                           <tr>
+                                               <td class="tblhead" colspan="5">
+                                                   ::::::::::::&nbsp;&nbsp; ADVANCE SEARCH ZONE&nbsp;&nbsp;&nbsp; :::::::::</td>
+                                           </tr>
+                                           <tr>
+                                               <td class="style5">
+                                                   Category&nbsp; :</td>
+                                               <td>
+                            <asp:DropDownList ID="drpCate" runat="server">
+                                <asp:ListItem>SELECT</asp:ListItem>
+                                <asp:ListItem>IT</asp:ListItem>
+                                <asp:ListItem>COMPUTER</asp:ListItem>
+                                <asp:ListItem>MECHANICAL</asp:ListItem>
+                                <asp:ListItem>EC</asp:ListItem>
+                                <asp:ListItem>CIVIL</asp:ListItem>
+                                <asp:ListItem>AUTOMOBILE</asp:ListItem>
+                                <asp:ListItem>ELETRICAL</asp:ListItem>
+                            </asp:DropDownList>
+                                               </td>
+                                               <td class="style5">
+                                                   Skill :</td>
+                                               <td class="style4">
+                                                   <asp:DropDownList ID="drpreqskill" runat="server" 
+                                                       Width="140px">
+                                                       <asp:ListItem>SELECT</asp:ListItem>
+                                                       <asp:ListItem>.NET</asp:ListItem>
+                                                       <asp:ListItem>AJAX</asp:ListItem>
+                                                       <asp:ListItem>ANDROID</asp:ListItem>
+                                                       <asp:ListItem>PHP</asp:ListItem>
+                                                       <asp:ListItem>JAVA</asp:ListItem>
+                                                       <asp:ListItem Enabled="False">JAVASCRIPT</asp:ListItem>
+                                                       <asp:ListItem>APPLE iOS</asp:ListItem>
+                                                       <asp:ListItem>AUTO CAD</asp:ListItem>
+                                                       <asp:ListItem>C</asp:ListItem>
+                                                       <asp:ListItem>C#</asp:ListItem>
+                                                       <asp:ListItem>c++</asp:ListItem>
+                                                       <asp:ListItem>C# .NET</asp:ListItem>
+                                                       <asp:ListItem>CAD/CAM</asp:ListItem>
+                                                       <asp:ListItem>CSS</asp:ListItem>
+                                                       <asp:ListItem>Dreamviewer</asp:ListItem>
+                                                       <asp:ListItem>DBMS</asp:ListItem>
+                                                   </asp:DropDownList>
+                                               </td>
+                                               <td>
+                                                   &nbsp;</td>
+                                           </tr>
+                                           <tr>
+                                               <td class="style5">
+                                                   Qaulification :</td>
+                                               <td>
+                            <asp:DropDownList ID="drpQulif" runat="server">
+                                <asp:ListItem>SELECT</asp:ListItem>
+                                <asp:ListItem>Deploma</asp:ListItem>
+                                <asp:ListItem>BE/BTech</asp:ListItem>
+                                <asp:ListItem>ME/MTech</asp:ListItem>
+                                <asp:ListItem>BCA</asp:ListItem>
+                            </asp:DropDownList>
+                                               </td>
+                                               <td class="style5">
+                                                   &nbsp;</td>
+                                               <td class="style4">
+                                                   <asp:RadioButton ID="rdobtnSTD" runat="server" GroupName="Search" 
+                                                       Text="Search Company" />
+                                               </td>
+                                               <td>
+                                                   &nbsp;</td>
+                                           </tr>
+                                           <tr>
+                                               <td class="style5">
+                                                   &nbsp;</td>
+                                               <td colspan="2">
+                                                   <asp:Label ID="lblresult" runat="server" CssClass="lblError"></asp:Label>
+                                               </td>
+                                               <td>
+                                                   <asp:RadioButton ID="rdobtnCompany" runat="server" GroupName="Search" 
+                                                       Text="Search Students" />
+                                               </td>
+                                               <td>
+                                                   <asp:Button ID="btnSearch" runat="server" CssClass="btn" Text="Serach" 
+                                                       Width="80px" onclick="btnSearch_Click" CausesValidation="False" />
+                                               </td>
+                                           </tr>
+                                       </table>--%>
+                                       <asp:Image ID="Image2" runat="server" Height="334px" 
+                    ImageUrl="~/img/e.jpg" Width="682px" EnableTheming="True" DescriptionUrl="~/img/y.jpg" />
+
+
+
+
+
+                                   </td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                               <tr>
+                                   <td style="text-align: center" width="700" class="style1">
+                                       <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+        
+        </asp:ContentPlaceHolder></td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                           </table>
+                       </td>
+                       <td valign="top" width="250">
+                           <table class="style1">
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                           </table>
+                           <table class="style1">
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                           </table>
+                           <table class="style1">
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                           </table>
+                           <table class="style1">
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                           </table>
+                           <table class="style1">
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                           </table>
+                           <table class="style1">
+                               <tr>
+                                   <td class="auto-style4">
+                                       &nbsp;&nbsp;&nbsp;&nbsp;
+                                       <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                       <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                       <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                       <a href="https://instagram.com/iccs_pune?igshid=YmMyMTA2M2Y="><img src="img/1-instagram.gif" align="middle" border="none" class="auto-style5" id="1"></a><br />
+                                       <br />
+                                       <br />
+                                       <br />
+                                   </td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                           </table>
+                               <tr>
+                                   <td class="auto-style7">
+                                       &nbsp;</td>
+                               </tr>
+                           </table
+                                      <table class="style1">
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       &nbsp;</td>
+                               </tr>
+                           </table
+
+
+
+
+                       </td>
+                   </tr>
+               </table>
+           </div>
+    </div> 
+    </form>
+    <div id="foot">...................<b>WELCOME TO  HOME PAGE</b>...............</div>
+        
+    
+    
+</body>
+</html>
+
+
